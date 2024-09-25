@@ -7,5 +7,4 @@ resultado = 1
 for n in range(1, numero+1):
     resultado = resultado * n
 
-print('\nO resultado de {0}! é: {1}'.format(numero, resultado))
-
+print(f"O resultado de {numero}! é:", resultado)
